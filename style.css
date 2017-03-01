@@ -1,0 +1,68 @@
+/* style.css */
+
+.container {
+    width: 100%;
+    border: 4px solid black;
+}
+
+
+header
+{
+    padding: 2em;
+    color: black;
+    background-color: lightblue;
+    clear: left;
+    text-align: center;
+}
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    min-height: 100%;
+    position: relative;
+    
+
+}
+
+body:after {
+    content: '';
+    display: block;
+    height: 100px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+
